@@ -1,10 +1,7 @@
 import { useState } from "react"
 import Editor from "./Editor"
 import Output from "./Output"
-
 import "./editor.css"
-
-// ...existing code...
 
 export default function App() {
   const [html, setHtml] = useState("my <b>HTML</b>")
