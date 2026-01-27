@@ -5,6 +5,7 @@ import {
   BtnUndo,
   BtnRedo,
   BtnBold,
+  BtnClearFormatting,
   BtnItalic,
   BtnUnderline,
   BtnStrikeThrough,
@@ -12,6 +13,7 @@ import {
   BtnBulletList,
   BtnLink,
   Separator,
+  HtmlButton,
   BtnStyles,
 } from "react-simple-wysiwyg"
 import type { ContentEditableEvent } from "react-simple-wysiwyg"
@@ -53,6 +55,9 @@ export default function Editor({ html, setHtml }: EditorProps) {
           <BtnLink />
           <Separator />
           <BtnStyles />
+          <Separator />
+          <BtnClearFormatting />
+          <HtmlButton />
         </Toolbar>
       </WysiwygEditor>
     </EditorProvider>

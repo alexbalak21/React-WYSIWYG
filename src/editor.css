@@ -1,3 +1,7 @@
+:root {
+  --html-editor-background: #fffffff5;
+}
+
 /* Editor content area */
 .rsw-ce h1 {
   font-size: 1.9rem;
@@ -28,4 +32,10 @@
 .rsw-ce ol {
   list-style: decimal;
   padding-left: 1.5rem;
+}
+
+
+
+.rsw-html {
+  background: var(--html-editor-background) !important;
 }
