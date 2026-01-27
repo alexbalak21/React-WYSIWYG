@@ -19,11 +19,12 @@ import {
 import type { ContentEditableEvent } from "react-simple-wysiwyg"
 
 interface EditorProps {
-  html: string
+  html: string,
+  className?: string,
   setHtml: (value: string) => void
 }
 
-export default function Editor({ html, setHtml }: EditorProps) {
+export default function Editor({ html, className, setHtml }: EditorProps) {
   function onChange(e: ContentEditableEvent) {
     setHtml(e.target.value)
   }
@@ -33,12 +34,7 @@ export default function Editor({ html, setHtml }: EditorProps) {
       <WysiwygEditor
         value={html}
         onChange={onChange}
-        className="
-          w-full h-64 p-2 bg-white shadow-sm
-          border border-gray-300
-          focus-within:border-gray-400
-          focus:outline-none
-        "
+        className={className}
       >
         <Toolbar>
           <BtnUndo />
