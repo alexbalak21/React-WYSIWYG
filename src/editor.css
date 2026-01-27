@@ -34,8 +34,17 @@
   padding-left: 1.5rem;
 }
 
+.rsw-ce:focus {
+  outline: none !important;
+}
+
 
 /* HTML Editor styles  */
 .rsw-html {
   background: var(--html-editor-background) !important;
+}
+
+
+.rsw-editor{
+  border: none !important;
 }

@@ -13,15 +13,10 @@ export default function App() {
     setOutputHtml(html);
   }
   return (
-    <div className="flex h-screen w-screen items-center justify-center bg-gray-100">
+    <div className="flex h-screen w-screen items-center justify-center bg-gray-100 dark:bg-gray-800 p-4">
       <div className="w-200">
-        <h1 className="text-3xl font-bold mb-4 text-center">React WYSIWYG</h1>
-        <Editor html={html} setHtml={setHtml} className="
-          w-full h-64 p-2 bg-white shadow-sm
-          border border-gray-300
-          focus-within:border-gray-400
-          focus:outline-none
-        "/>
+        <h1 className="text-3xl font-bold mb-4 text-center text-gray-900 dark:text-gray-100">React WYSIWYG</h1>
+        <Editor html={html} setHtml={setHtml} />
         <button
           className="my-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
           onClick={handleSeeOutput}
