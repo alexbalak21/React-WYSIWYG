@@ -15,6 +15,8 @@ import {
   BtnStyles,
 } from "react-simple-wysiwyg"
 
+import "./editor.css"
+
 import type {ContentEditableEvent} from "react-simple-wysiwyg"
 // import {BtnStyles} from "./components/dropdowns"
 import {useState} from "react"
@@ -59,7 +61,7 @@ export default function App() {
           </Editor>
 
           {/* 1. Stylized HTML Output */}
-          <div className="p-4 bg-white border border-gray-300 shadow-sm my-6">
+          <div className="rsw-ce p-4 bg-white border border-gray-300 shadow-sm my-6">
             <h2 className="font-bold mb-2">Rendered Output</h2>
             <div className="prose max-w-none" dangerouslySetInnerHTML={{__html: html}} />
           </div>
