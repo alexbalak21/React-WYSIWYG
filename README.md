@@ -6,6 +6,8 @@ A simple and customizable WYSIWYG (What You See Is What You Get) HTML editor bui
 - Rich text editing with formatting toolbar (bold, italic, underline, lists, links, etc.)
 - Undo/redo, clear formatting, and HTML view support
 - Scrollable editor area with max height
+- Built-in light/dark mode styling and responsive design
+- Toolbar and editor area are styled for a modern UI out of the box
 - Easy integration and customization
 
 ## Getting Started
@@ -51,7 +53,7 @@ function App() {
 
 ## Customization
 
-You can customize the toolbar, styles, and editor behavior by modifying the `Editor.tsx` component and related CSS files.
+You can customize the toolbar, styles, and editor behavior by modifying the `Editor.tsx` component and related CSS files. The editor and toolbar come with default styles for both light and dark modes, but you can override them as needed.
 
 ## License
 
