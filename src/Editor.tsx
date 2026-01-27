@@ -31,31 +31,33 @@ export default function Editor({ html, className, setHtml }: EditorProps) {
 
   return (
     <EditorProvider>
-      <WysiwygEditor
-        value={html}
-        onChange={onChange}
-        className={className}
-      >
-        <Toolbar>
-          <BtnUndo />
-          <BtnRedo />
-          <Separator />
-          <BtnBold />
-          <BtnItalic />
-          <BtnUnderline />
-          <BtnStrikeThrough />
-          <Separator />
-          <BtnNumberedList />
-          <BtnBulletList />
-          <Separator />
-          <BtnLink />
-          <Separator />
-          <BtnStyles />
-          <Separator />
-          <BtnClearFormatting />
-          <HtmlButton />
-        </Toolbar>
-      </WysiwygEditor>
+      <div className="overflow-y-auto max-h-96">
+        <WysiwygEditor
+          value={html}
+          onChange={onChange}
+          className={className}
+        >
+          <Toolbar>
+            <BtnUndo />
+            <BtnRedo />
+            <Separator />
+            <BtnBold />
+            <BtnItalic />
+            <BtnUnderline />
+            <BtnStrikeThrough />
+            <Separator />
+            <BtnNumberedList />
+            <BtnBulletList />
+            <Separator />
+            <BtnLink />
+            <Separator />
+            <BtnStyles />
+            <Separator />
+            <BtnClearFormatting />
+            <HtmlButton />
+          </Toolbar>
+        </WysiwygEditor>
+      </div>
     </EditorProvider>
   )
 }
