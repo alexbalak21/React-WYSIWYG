@@ -6,7 +6,12 @@ The Editor component is a ready-to-drop React component that supports both light
 
 ## Images
 
-![React WYSIWYG Screenshot](screenshots/lightmode.jpg)
+<table>
+  <tr>
+    <td><img src="screenshots/lightmode.jpg" alt="LightMode Screenshot" width="300"/></td>
+    <td><img src="screenshots/darkmode.jpg" alt="DarkMode Screenshot" width="300"/></td>
+  </tr>
+</table>
 
 ## Features
 - Rich text editing with formatting toolbar (bold, italic, underline, lists, links, etc.)
