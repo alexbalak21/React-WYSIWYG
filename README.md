@@ -1,6 +1,10 @@
 # React WYSIWYG Editor
 
-A simple and customizable WYSIWYG (What You See Is What You Get) HTML editor built with React and [react-simple-wysiwyg](https://github.com/andrerpena/react-simple-wysiwyg).
+A simple and customizable WYSIWYG (What You See Is What You Get) HTML editor built with React and [react-simple-wysiwyg](https://github.com/megahertz/react-simple-wysiwyg).
+
+## Images
+
+![React WYSIWYG Screenshot](screenshots/lightmode.jpg)
 
 ## Features
 - Rich text editing with formatting toolbar (bold, italic, underline, lists, links, etc.)
@@ -55,18 +59,4 @@ function App() {
 
 You can customize the toolbar, styles, and editor behavior by modifying the `Editor.tsx` component and related CSS files. The editor and toolbar come with default styles for both light and dark modes, but you can override them as needed.
 
-## License
 
-This project is open source and available under the MIT License.
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
