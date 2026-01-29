@@ -8,8 +8,8 @@ The Editor component is a ready-to-drop React component that supports both light
 
 <table>
   <tr>
-    <td><img src="screenshots/lightmode.jpg" alt="LightMode Screenshot" width="300"/></td>
-    <td><img src="screenshots/darkmode.jpg" alt="DarkMode Screenshot" width="300"/></td>
+    <td><img src="screenshots/lightmode.jpg" alt="LightMode Screenshot" width="400"/></td>
+    <td><img src="screenshots/darkmode.jpg" alt="DarkMode Screenshot" width="400"/></td>
   </tr>
 </table>
 
