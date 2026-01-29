@@ -2,6 +2,8 @@
 
 A simple and customizable WYSIWYG (What You See Is What You Get) HTML editor built with React and [react-simple-wysiwyg](https://github.com/megahertz/react-simple-wysiwyg).
 
+The Editor component is a ready-to-drop React component that supports both light and dark themes, and is easily customizable via props.
+
 ## Images
 
 ![React WYSIWYG Screenshot](screenshots/lightmode.jpg)
@@ -34,18 +36,10 @@ npm run dev
 
 Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
 
+
 ## Usage
 
-The main editor component is `Editor.tsx`. It can be imported and used in your React application as follows:
-
-```tsx
-import Editor from './src/Editor';
-
-function App() {
-  const [html, setHtml] = useState('');
-  return <Editor html={html} setHtml={setHtml} />;
-}
-```
+The main editor component is [`Editor.tsx`](src/Editor.tsx). You can view and copy the full code from that file.
 
 ## Project Structure
 
